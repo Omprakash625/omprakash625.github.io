@@ -31,16 +31,14 @@ img {
 	padding: 10px 0 0 0;
 	width: 85vw;
 	height: auto;
-	max-width: 600px;
 	margin: 0 auto;
 }
 #img-div {
 	background-color: whitesmoke;
 	margin: auto;
-	padding: 10px;
+	padding: 0;
 	width: 100%;
-	max-width: 620px;
-	box-shadow: 0px 0px 15px 3px black;
+	box-shadow: 0px 0px 15px 2px black;
 
 }
 ul {
@@ -60,7 +58,7 @@ li {
 	font-size: 1.1rem;
 	font-family: Roboto,sans-serif;
 	color: black;
-	text-shadow: 0 3px 3px rgba(255, 0, 0, 0.9);
+	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
 	animation-name: blink;
 	animation-duration: 1s;
 }
@@ -104,7 +102,7 @@ footer {
 	width: 85vw;
 	height: 350px;
 	max-height: 600px;
-	max-width: 600px;
+	max-width: 800px;
 	opacity: 0.8;
 	border-radius: 75px;
 	border: 3px solid rgba(201, 102, 255,1);
