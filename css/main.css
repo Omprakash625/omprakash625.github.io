@@ -14,18 +14,38 @@ body {
 	justify-content: center;
 }
 
-h1{
+h1{	
 	font-family: Zen Antique, monospace;
 	font-weight: 100;
 	margin: 0;
 	padding: 10px 0 10px 0;
-	font-size: 3rem;
+	font-size: 3.5rem;
+	animation-name: dancing;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	text-shadow: 0 3px 5px rgba(0, 0, 0, 1.0);
+}
+@keyframes dancing {
+	0% {
+		color: darkgray;
+	}
+	25% {
+		color: yellow;
+	}
+	50% {
+		color: orange;
+	}
+	75% {
+		color: red;
+	}
+
 }
 h2 {
 	font-weight: lighter;
 	margin: 0;
 	padding: 10px 0 20px 0;
-	font-size: 2.5rem;
+	font-size: 3rem;
+	text-shadow: 0 3px 3px rgba(255, 255, 255, 0.9);
 }
 img {
 	padding: 10px 0 0 0;
@@ -55,28 +75,12 @@ li {
 #img-caption {
 	padding: 10px;
 	text-align: center;
-	font-size: 1.1rem;
+	font-size: 1.5rem;
 	font-family: Roboto,sans-serif;
 	color: black;
-	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
-	animation-name: blink;
-	animation-duration: 1s;
+	text-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
 }
-@keyframes blink {
-	0% {
-		transform: scale(0.9);
-	}
-	25% {
-		transform: scale(1.1);
-	}
-	50% {
-		transform: scale(0.9);
-	}
-	75% {
-		transform: scale(1.1);
-	}
 
-}
 #tribute-info {
 	text-align: center;
 
@@ -89,7 +93,7 @@ footer {
 	display: block;
 	justify-items: center;
 	color: white;
-	font-size: 1.2rem;
+	font-size: 1.7rem;
 }
 #bg-img {
 	margin: 20px;
@@ -110,15 +114,16 @@ footer {
 }
 blockquote {
 	position: relative;
-	top: 230px;
+	top: 180px;
 }
 p {
+	font-family: Cookie, monospace;
 	position: relative;
-	top: 230px;
+	top: 180px;
 }
 @media(max-width: 700px){
 	#img-caption{
-		font-size: 0.9rem;
+		font-size: 1rem;
 	}
 	#img-div {
 	margin: 0 auto;
@@ -129,31 +134,31 @@ p {
 		padding: 0;
 	}
 	h1 {
-		font-size: 2rem;
+		font-size: 2.5rem;
 	}
 	h2 {
 
-		font-size: 1.5rem;
+		font-size: 2rem;
 	}
 	h3 {
-		font-size: 1rem;
+		font-size: 2rem;
 	}
 	ul {
-		font-size: 1rem;
+		font-size: 1.2rem;
 	}
 	#headline {
-	font-size: 1.3rem;
+	font-size: 1.7rem;
 	}
 	footer {
-		font-size: 0.85rem;
+		font-size: 1.5rem;
 	}
 	blockquote {
 	position: relative;
-	top: 250px;
+	top: 180px;
 	}
 	p {
 	position: relative;
-	top: 265px;
+	top: 180px;
 	}	
 }
 
